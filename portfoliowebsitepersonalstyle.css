@@ -1,0 +1,376 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background: rgb(24,13,24);
+	background: radial-gradient(circle, rgba(24,13,24,1) 0%, rgba(13,13,13,1) 100%);
+}
+
+h1{ top:90px;
+	color:#480F49;
+	font-size:150px;
+	padding-left:190px;
+	position:absolute;
+	padding-top:0;
+	margin-top:0;
+}
+h2{ top:358px;
+	color:#4B4B4B;
+	font-size:30px;
+	font-weight:400;
+	padding-left:220px;
+	position:absolute;
+}
+h3{ top:5182px;
+	color:#4B4B4B;
+	font-size: 30px;
+	font-weight:400;
+	padding-left:220px;
+	position:absolute;
+}
+h4{ top:9345px;
+	color:#4B4B4B;
+	font-size: 30px;
+	font-weight:400;
+	padding-left:225px;
+	position:absolute;
+}
+img{padding-left:190px;}
+
+.starone{
+	font-size:40px;
+	color:#4B4B4B;
+	left:185px;
+	top:373px;
+	position:absolute;
+	
+	animation-name:tricolorchange;
+	animation-duration:15s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+}	
+.startwo{
+	font-size:40px;
+	color:#4B4B4B;
+	left:185px;
+	top:5200px;
+	position:absolute;
+	
+	animation-name:tricolorchange;
+	animation-duration:15s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+}
+.starthree{
+	font-size:40px;
+	color:#4B4B4B;
+	left:185px;
+	top:9372px;
+	margin:0;
+	position:absolute;
+	
+	animation-name:tricolorchange;
+	animation-duration:15s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+}
+.staroneright{
+	font-size:40px;
+	color:#4B4B4B;
+	left:1330px;
+	top:374px;
+	position:absolute;
+	
+	animation-name:tricolorchange;
+	animation-duration:15s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+}
+.startworight{
+	font-size:40px;
+	color:#4B4B4B;
+	left:1330px;
+	top:5200px;
+	position:absolute;
+	
+	animation-name:tricolorchange;
+	animation-duration:15s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+}
+.starthreeright{
+	font-size:40px;
+	color:#4B4B4B;
+	left:1330px;
+	top:9372px;
+	margin:0;
+	position:absolute;
+	
+	animation-name:tricolorchange;
+	animation-duration:15s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+}
+
+/*photos*/
+#sunflower{
+	top:450px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#spider{
+	top:1234px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;	
+}
+#butterfly{
+	top:2252px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#raindrops{
+	top:3036px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#rainbowlights{
+	top:3820px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+.lineleft{
+	top:400px;
+	left:435px;
+	width:908px;
+	height:5px;
+	background-color:#4B4B4b;
+	position:absolute;
+}
+#artref{
+	top:5280px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#cupid{
+	top:6455px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#future{
+	top:7638px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+/*
+#progress{
+	top:8300px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+*/
+#modern_neoclacissism{
+	top:8595px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+.linedigital{
+	top:5227px;
+	left:420px;
+	width:920px;
+	height:5px;
+	margin:0;
+	background-color:#4B4B4b;
+	position:absolute;
+}
+.linedrawings{
+	top:9400px;
+	left:382px;
+	width:960px;
+	height:5px;
+	margin:0;
+	background-color:#4B4B4b;
+	position:absolute;
+}
+#lamp_post_art{
+	top:9448px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#charcoalportrait{
+	top:10958px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#hand{
+	top:12495px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#pollution{
+	top:13947px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#portraitfriend{
+	top:14824px;
+	left:190px;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+.lineend{
+	width:1170px;
+	height:5px;
+	background-color:#4B4B4B;
+	top:16510px;
+	margin:0;
+	padding:0;
+	left:190px;
+	position:absolute;
+}
+#line{
+	width:7px;
+	height:675px;
+	background-color:#4B4B4B;
+	top:1px;
+	right:50px;
+	position:fixed;
+}
+#house_icon a:active {text-decoration: none; color: #FFFFFF;}
+#house_icon a:visited {text-dcoration: none; color:#4B4B4b}
+#house_icon a:hover{text-decoration: none; color: #8963B5;}
+#house_icon a:link{
+	color:#4B4B4b;
+	text-decoration: none;
+	animation-name:colorchange;
+	animation-duration:10s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+}
+#house_icon{
+	right:45px;
+	top:709px;
+	color:#4B4B4B;
+	font-size:30px;
+	position:fixed;
+}
+#star_icon a:active {text-decoration: none; color: #FFFFFF;}
+#star_icon a:visited {text-dcoration: none; color:#4B4B4b}
+#star_icon a:link {
+	color:#4B4B4b;
+	text-decoration: none;
+	animation-name:colorchange;
+	animation-duration:10s;
+	animation-delay:1.2s;
+	animation-iteration-count:infinite; }
+#star_icon a:hover{text-decoration: none; color: #8963B5;}
+#star_icon{
+	right:42px;
+	top:755px;
+	font-size:30px;
+	position:fixed;
+}
+#brush_icon a:active {text-decoration: none; color: #FFFFFF;}
+#brush_icon a:visited {text-dcoration: none; color:#4B4B4b}
+#brush_icon a:link {
+	color:#4B4B4b;
+	text-decoration: none;
+	animation-name:colorchange;
+	animation-duration:10s;
+	animation-delay:1.9s;
+	animation-iteration-count:infinite;}
+#brush_icon a:hover{text-decoration: none; color: #8963B5;}
+#brush_icon{
+	right:40px;
+	top:807px;
+	color:#4B4B4B;
+	font-size:26px;
+	position:fixed;
+}
+@-webkit-keyframes colorchange{
+	
+			0%{
+				color:#4B4B4b;
+			}
+			10%{
+				color:#78433C;
+			}
+			20%{
+				color:#6C4A21;
+			}
+			30%{
+				color:#495A29;
+			}
+			40%{
+				color:#27564A;
+			}
+			50%{
+				color:#265260;
+			}
+			60%{
+				color:#3B5F8A;
+			}	
+			70%{
+				color:#3E4388;
+			}
+			80%{
+				color:#61438C;
+			}
+			90%{
+				color:#6C3775;
+			}
+			100%{
+					color:#4B4B4B;
+
+			}
+}
+
+@-webkit-keyframes tricolorchange{
+	
+	0%{
+		color:#4B4B4B;
+	}
+	25%{
+		color:#6A5C35;
+	}
+	50%{
+		color:#67753B;
+	}
+	75%{
+		color:#40766B;
+	}
+	100%{
+		color:#4B4B4B;
+		transform:rotate(360deg);
+	}
+	
+}

@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background: rgb(11,18,19);
+	background: radial-gradient(circle, rgba(11,18,19,1) 0%, rgba(15,14,14,1) 100%);
+}
+
+h1{
+	color:#17603D;
+	font-size:160px;
+	padding-left:400px;
+	top:70px;
+	margin:0;
+	position:absolute;
+}
+
+h2 a:link{text-decoration:none; color:#696A4D;}
+h2 a:hover{text-decoration:none; color:#76826A;}
+h2 {padding-left:400px;
+	top:250px;
+	margin:0;
+	font-size:26px;
+	color:#4B4B4B;
+	line-height: 45px;
+	font-weight: 400;
+	position:absolute;}
+
+#self_portrait{
+	left:412px;
+	top:580px;
+	position:absolute;
+}
+#starabout{
+	left:1165px;
+	top:68px;
+	color:#4B4B4B;
+	font-size:150px;
+	position:absolute;
+}
+#line{
+	width:7px;
+	height:675px;
+	background-color:#4B4B4B;
+	top:1px;
+	right:50px;
+	position:fixed;
+}
+#house_icon a:active {text-decoration: none; color: #FFFFFF;}
+#house_icon a:visited {text-dcoration: none; color:#4B4B4b}
+#house_icon a:hover{text-decoration: none; color: #8963B5;}
+#house_icon a:link{
+	color:#4B4B4b;
+	text-decoration: none;
+	animation-name:colorchange;
+	animation-duration:10s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+}
+#house_icon{
+	right:45px;
+	top:709px;
+	color:#4B4B4B;
+	font-size:30px;
+	position:fixed;
+}
+#star_icon a:active {text-decoration: none; color: #FFFFFF;}
+#star_icon a:visited {text-dcoration: none; color:#4B4B4b}
+#star_icon a:link {
+	color:#4B4B4b;
+	text-decoration: none;
+	animation-name:colorchange;
+	animation-duration:10s;
+	animation-delay:1.2s;
+	animation-iteration-count:infinite; }
+#star_icon a:hover{text-decoration: none; color: #8963B5;}
+#star_icon{
+	right:42px;
+	top:755px;
+	font-size:30px;
+	position:fixed;
+}
+#brush_icon a:active {text-decoration: none; color: #FFFFFF;}
+#brush_icon a:visited {text-dcoration: none; color:#4B4B4b}
+#brush_icon a:link {
+	color:#4B4B4b;
+	text-decoration: none;
+	animation-name:colorchange;
+	animation-duration:10s;
+	animation-delay:1.9s;
+	animation-iteration-count:infinite;}
+#brush_icon a:hover{text-decoration: none; color: #8963B5;}
+#brush_icon{
+	right:40px;
+	top:807px;
+	color:#4B4B4B;
+	font-size:26px;
+	position:fixed;
+}
+
+@-webkit-keyframes colorchange{
+	
+			0%{
+				color:#4B4B4b;
+			}
+			10%{
+				color:#78433C;
+			}
+			20%{
+				color:#6C4A21;
+			}
+			30%{
+				color:#495A29;
+			}
+			40%{
+				color:#27564A;
+			}
+			50%{
+				color:#265260;
+			}
+			60%{
+				color:#3B5F8A;
+			}	
+			70%{
+				color:#3E4388;
+			}
+			80%{
+				color:#61438C;
+			}
+			90%{
+				color:#6C3775;
+			}
+			100%{
+					color:#4B4B4B;
+
+			}
+}
