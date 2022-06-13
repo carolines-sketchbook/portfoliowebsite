@@ -291,7 +291,8 @@ h3{
 	color:#4B4B4B;
 	font-size:26px;
 	position:fixed;
-}
+} 
+
 .emotion a:active {text-decoration: none; color: #FFFFFF;}
 .emotion a:link {text-decoration: none; color: #6787AF; font-size:32px;}
 .emotion a:visited {text-decoration:none; color:#52218B;}
@@ -434,5 +435,76 @@ h3{
 		color:rgb(15,10,40);
 		transform:rotate(360deg);
 	}
+}
+
+/*desktop*/
+@media (min-width:770px){
 	
+	
+}
+
+/*large tablet*/
+@media (max-width:1400px){
+	
+	
+}
+
+/*medium-large tablet*/
+	@media (max-width:1200px){
+		
+}
+
+/*tablet*/
+	@media (max-width:1024px){
+	h1{
+	font-size:130px;
+		}
+	
+	#emotionsc{
+	left:200px;
+	top:1050px;
+	margin:0;
+	padding:0;
+	width:40%;
+	position:absolute;
+}
+	#playtimesc{
+	top:1450px;
+	left:200px;
+	margin:0;
+	padding:0;
+	width:40%;
+	position:absolute;
+}
+	#bcssc{
+	top:1665px;
+	left:400px;
+	margin:0;
+	padding:0;
+	width:40%;
+	position:absolute;
+}
+	#smoothiemilkshakesc{
+	top:1250px;
+	left:400px;
+	margin:0;
+	padding:0;
+	width:40%;
+	position:absolute;
+}
+		
+}
+/*smaller tablet / half window size*/
+	@media (max-width:800px){
+		
+}
+
+/*large phone*/
+	@media (max-width:690px){
+	
+}
+
+/*medium phone*/
+	@media (max-width:670px){
+		
 }
